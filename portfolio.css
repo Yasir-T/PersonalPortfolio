@@ -119,7 +119,6 @@ div.info{
     font-weight: 600;
 }
 .text-animate .text.first-text{
-    margin: 10px;
     color: var(--secondary-color);
 }
 .text.sec-text:before{
