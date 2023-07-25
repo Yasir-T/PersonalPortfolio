@@ -53,6 +53,7 @@ header{
 }
 .navbar .themechange img{
     position: absolute;
+    transform:translateX(50%);
 }
 .navbar .logo a{
     letter-spacing: 1rem;
