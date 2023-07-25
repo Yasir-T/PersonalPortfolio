@@ -35,15 +35,24 @@ header{
     height: auto;
 }
 .navbar{
-    position: absolute;
-    position:fixed;
-    z-index: 1;
+    position:relative;
     width: 100%;
     height: 40px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content:space-between;
+}
+.navbar .themechange{
+    position: relative;
+    width:70px;
+    height: 40px;
+    background: var(--primary-color);
+    border-radius: 30px;
+    border: 2px solid var(--secondary-color);
+}
+.navbar .themechange img{
+    position: absolute;
 }
 .navbar .logo a{
     letter-spacing: 1rem;
@@ -68,20 +77,7 @@ header{
     color:var(--tritary-color);
     font-size:2rem;
     cursor: pointer;
-    display: block;
-}
-.navbar .color-mode-swipe{
-    margin-top: 10px;
-    padding-left: 5px;
-    background: var(--secondary-color);
-    position: relative;
-    width: 80px;
-    height: 40px;
-    border-radius: 50px;
-    border: 1px solid var(--secondary-color);
-}
-.navbar .color-mode-swipe img{
-    position:absolute;
+    display: none;
 }
 @media (max-width: 992px){
     .navbar .links{
@@ -93,6 +89,9 @@ header{
     .dropdown-menu{
         display: block;
     }
+}
+.navbar .toggle-btn{
+    display: block;
 }
 .dropdown-menu{
     position: absolute;
