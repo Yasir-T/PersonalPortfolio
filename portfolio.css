@@ -165,6 +165,7 @@ div.info{
 @media (max-width:500px){
     .projects{
         flex-direction: column!important;
+        width:350px:
     }
 }
 .projects .pro{
