@@ -29,14 +29,12 @@ a:hover{
     color: orange;
     font-weight: bold;
 }
-header{
-    position: relative;
+header{  
     width: 100%;
     height: auto;
 }
 .navbar{
-    position:relative;
-    width: 100%;
+    position: relative;
     height: 40px;
     margin: 0 auto;
     display: grid;
@@ -53,7 +51,7 @@ header{
 }
 .navbar .themechange img{
     position: absolute;
-    transform:translateX(50%);
+    transform: translateX(50%);
 }
 .navbar .logo a{
     letter-spacing: 1rem;
@@ -161,6 +159,9 @@ div.info{
     margin-top: 70px;
     display:flex;
 }
+.projects .pro:hover{
+    transform: scale(1.1);
+}
 @media (max-width:500px){
     .projects{
         flex-direction: column!important;
@@ -209,7 +210,8 @@ img#lightmode{
     display: flex;
     width: auto;
     max-height: 10rem;
-    aspect-ratio:3/2;
+    aspect-ratio:3px/2px;
+
 }
 .skills{
     margin-top:30rem;
@@ -251,7 +253,6 @@ footer .footer-items{
 button.btn{
     text-align: center;
     font-weight: bold;
-    display: inline;
     font-size: 15px;
     width: 7rem;
     height: auto;
@@ -266,9 +267,10 @@ button.btn i{
 float: right;
 }
 button.btn:hover{
+    transform: scale(1.1);
     background:white;
     opacity: 0.6;
-    transition: 0.8s;
+    transition: 0.5s;
     color:black;
 }
 .btn.btn-instagram{
