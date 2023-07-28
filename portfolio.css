@@ -181,8 +181,13 @@ div.info{
     box-shadow: 4px 6px 7px rgb(91, 93, 93);
 }
 .projects .pro span{
+    display: block;
     font-family: monospace;
-    text-decoration: underline;
+    font-weight: bold;
+    color:#ffcc00;
+    text-transform: uppercase;
+    text-align: center;
+    background:linear-gradient(45deg,#00ffff,#333333,#cccc99);
 }
 li::after{
     content: "";
